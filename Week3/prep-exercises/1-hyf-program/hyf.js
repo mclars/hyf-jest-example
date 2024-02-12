@@ -4,10 +4,19 @@ export const modules = [
   { name: "browsers", displayName: "Browsers" },
   { name: "using-apis", displayName: "Using APIs" },
   { name: "node", displayName: "Node.js" },
+  { name: "node", displayName: "Node.js" },
   { name: "databases", displayName: "Databases" },
   { name: "react", displayName: "React" },
   { name: "project", displayName: "Project" },
 ];
+
+// const allModuleNames = modules.map(module => module.name)
+// const setOfModules = new Set()
+// for (const moduleName of allModuleNames) setOfModules.add(moduleName)
+// if (setOfModules.length !== modules.length) throw new Error('Duplicate module names')
+
+
+// Array.from(setOfModules)
 
 export const classes = [
   {
